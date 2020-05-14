@@ -1,4 +1,4 @@
-const Personnel = require('../models/personnel.js');
+const Personnel = require('../models/Personnel.js');
 
 exports.createPersonnel2 = (req, res, next) => {
     const personnelObject = JSON.parse(req.body.personnel);
